@@ -17,7 +17,7 @@
       <div class="container">
         <div class="header__inner">
           <a href="#" class="header__logo">
-            <img src="<?php echo get_template_directory_uri()?>images/logo.svg" alt="logo" />
+            <img src="<?php echo get_template_directory_uri()?>/images/logo.svg" alt="logo" />
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -40,7 +40,7 @@
           </nav>
           <a class="header__phone" href="tel:88002003040">8&nbsp;800&nbsp;200&nbsp;30&nbsp;40</a>
           <button class="header__button" type="submit">
-            <img src="<?php echo get_template_directory_uri()?>images/burger.svg" alt="icon-burger" />
+            <img src="<?php echo get_template_directory_uri()?>/images/burger.svg" alt="icon-burger" />
           </button>
         </div>
       </div>
@@ -71,7 +71,7 @@
               </ul>
             </div>
             <div class="hero__img-wrapper">
-              <img class="hero__img" src="<?php echo get_template_directory_uri()?>images/main-image.jpg" alt="image" />
+              <img class="hero__img" src="<?php echo get_template_directory_uri()?>/images/main-image.jpg" alt="image" />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@
               <div class="cards-item__wrapper">
                 <button class="cards-item__heart"></button>
                 <a href="#" class="cards__item">
-                  <img src="<?php echo get_template_directory_uri()?>images/flat-1.png" alt="flat-1" class="cards__item-img" />
+                  <img src="<?php echo get_template_directory_uri()?>/images/flat-1.png" alt="flat-1" class="cards__item-img" />
                   <div class="cards__item-info">
                     <span class="cards__item-tag">семейный</span>
                     <span class="cards__item-name">3-комн. кв., 118&nbsp;м², 3/23 этаж</span>
@@ -102,7 +102,7 @@
               <div class="cards-item__wrapper">
                 <button class="cards-item__heart"></button>
                 <a href="#" class="cards__item">
-                  <img src="<?php echo get_template_directory_uri()?>images/flat-2.png" alt="flat-1" class="cards__item-img" />
+                  <img src="<?php echo get_template_directory_uri()?>/images/flat-2.png" alt="flat-1" class="cards__item-img" />
                   <div class="cards__item-info">
                     <span class="cards__item-tag cards__item-tag--blue">бизнес-класс</span>
                     <span class="cards__item-name">3-комн. кв., 118&nbsp;м², 3/23 этаж</span>
@@ -117,7 +117,7 @@
               <div class="cards-item__wrapper">
                 <button class="cards-item__heart"></button>
                 <a href="#" class="cards__item">
-                  <img src="<?php echo get_template_directory_uri()?>images/flat-3.png" alt="flat" class="cards__item-img" />
+                  <img src="<?php echo get_template_directory_uri()?>/images/flat-3.png" alt="flat" class="cards__item-img" />
                   <div class="cards__item-info">
                     <span class="cards__item-tag">семейный</span>
                     <span class="cards__item-name">3-комн. кв., 118&nbsp;м², 3/23 этаж</span>
@@ -132,7 +132,7 @@
               <div class="cards-item__wrapper">
                 <button class="cards-item__heart"></button>
                 <a href="#" class="cards__item">
-                  <img src="<?php echo get_template_directory_uri()?>images/flat-4.png" alt="flat" class="cards__item-img" />
+                  <img src="<?php echo get_template_directory_uri()?>/images/flat-4.png" alt="flat" class="cards__item-img" />
                   <div class="cards__item-info">
                     <span class="cards__item-tag cards__item-tag--pink">апартаменты</span>
                     <span class="cards__item-name">2-комн. кв., 107&nbsp;м², 23/23 этаж</span>
@@ -152,7 +152,7 @@
           <div class="reviews-wrapper">
             <div class="reviews-item">
               <div class="reviews-item__top">
-                <img src="<?php echo get_template_directory_uri()?>images/client-1.png" alt="avatar" class="reviews-item__avatar" />
+                <img src="<?php echo get_template_directory_uri()?>/images/client-1.png" alt="avatar" class="reviews-item__avatar" />
                 <div class="reviews-item__info">
                   <h3 class="reviews-item__title">Через две недели уже&nbsp;вышли на сделку</h3>
                   <span class="reviews-item__name"> Елена Гловатова </span>
@@ -164,7 +164,7 @@
             </div>
             <div class="reviews-item">
               <div class="reviews-item__top">
-                <img src="<?php echo get_template_directory_uri()?>images/client-2.png" alt="avatar" class="reviews-item__avatar" />
+                <img src="<?php echo get_template_directory_uri()?>/images/client-2.png" alt="avatar" class="reviews-item__avatar" />
                 <div class="reviews-item__info">
                   <h3 class="reviews-item__title">Подобрали именно то, что я так долго искал</h3>
                   <span class="reviews-item__name"> Евгений Пробухов </span>
@@ -176,7 +176,7 @@
             </div>
             <div class="reviews-item">
               <div class="reviews-item__top">
-                <img src="<?php echo get_template_directory_uri()?>images/client-3.jpg" alt="avatar" class="reviews-item__avatar" />
+                <img src="<?php echo get_template_directory_uri()?>/images/client-3.jpg" alt="avatar" class="reviews-item__avatar" />
                 <div class="reviews-item__info">
                   <h3 class="reviews-item__title">Подобрали именно то, что я так долго искал</h3>
                   <span class="reviews-item__name"> Олег Лебедев </span>
@@ -205,7 +205,7 @@
         <div class="footer-wrapper">
           <div class="footer-info">
             <a href="#" class="footer__logo">
-              <img src="<?php echo get_template_directory_uri()?>images/logo.svg" alt="logo" />
+              <img src="<?php echo get_template_directory_uri()?>/images/logo.svg" alt="logo" />
             </a>
             <p class="footer__text">Мы помогаем подобрать коммерческую или жилую недвижимость в Казани</p>
           </div>
