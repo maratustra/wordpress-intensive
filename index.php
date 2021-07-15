@@ -16,9 +16,7 @@
     <header class="header header--fixed">
       <div class="container">
         <div class="header__inner">
-          <a href="#" class="header__logo">
-            <img src="<?php echo get_template_directory_uri()?>/images/logo.svg" alt="logo" />
-          </a>
+          <?php the_custom_logo(); ?>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
@@ -38,7 +36,7 @@
               </li>
             </ul>
           </nav>
-          <a class="header__phone" href="tel:88002003040">8&nbsp;800&nbsp;200&nbsp;30&nbsp;40</a>
+          <a class="header__phone" href="tel:88002003040"><?php the_field('phone') ?></a>
           <button class="header__button" type="submit">
             <img src="<?php echo get_template_directory_uri()?>/images/burger.svg" alt="icon-burger" />
           </button>
@@ -50,8 +48,8 @@
         <div class="container">
           <div class="hero-wrapper">
             <div class="hero__info">
-              <h1 class="hero__info-title">Подберем жилую или коммерческую недвижимость <span>в&nbsp;Казани</span> за 3 дня по вашим параметрам</h1>
-              <p class="hero__info-text">К нам обращаются, когда нужно найти квартиру, комнату или офис в&nbsp;сжатые сроки по&nbsp;узким&nbsp;критериям</p>
+              <h1 class="hero__info-title"><?php the_field('main_title') ?></h1>
+              <p class="hero__info-text"><?php the_field('main_description') ?></p>
               <ul class="hero__info-tags">
                 <li class="hero__info-tag">
                   <a href="#">квартиры в аренду</a>
@@ -71,7 +69,7 @@
               </ul>
             </div>
             <div class="hero__img-wrapper">
-              <img class="hero__img" src="<?php echo get_template_directory_uri()?>/images/main-image.jpg" alt="image" />
+              <img class="hero__img" src="<?php the_field('main_image') ?>" alt="image" />
             </div>
           </div>
         </div>
@@ -204,10 +202,8 @@
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-info">
-            <a href="#" class="footer__logo">
-              <img src="<?php echo get_template_directory_uri()?>/images/logo.svg" alt="logo" />
-            </a>
-            <p class="footer__text">Мы помогаем подобрать коммерческую или жилую недвижимость в Казани</p>
+            <?php the_custom_logo(); ?>
+            <p class="footer__text"><?php echo bloginfo('description')?></p>
           </div>
           <nav class="footer-nav">
             <ul class="footer-list">
@@ -260,8 +256,8 @@
             </ul>
           </nav>
           <div class="footer-contacts">
-            <a class="footer__phone" href="tel:88002003040">8&nbsp;800&nbsp;200&nbsp;30&nbsp;40</a>
-            <a href="mailto:info@real-estate.com" class="footer__email">info@real&#8209;estate.com</a>
+            <a class="footer__phone" href="tel:88002003040"><?php the_field('phone') ?></a>
+            <a href="mailto:info@real-estate.com" class="footer__email"><?php the_field('email') ?></a>
           </div>
         </div>
       </div>
